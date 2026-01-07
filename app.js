@@ -2,10 +2,11 @@ const express = require("express");
 const app = express();
 const PORT = 9000;
 
+// Page import section here
 const secoundLargest = require("./arrays/secoundLargest");
+const findLargest = require("./arrays/findLargest");
 
-app.use("secoundLargest", secoundLargest);
+app.listen(PORT, () => {});
 
-app.listen(PORT, () => {
-  console.log("server is running", PORT);
-});
+// Function calling section here
+console.log("findLargest", findLargest);
