@@ -9,4 +9,4 @@ const findLargest = require("./arrays/findLargest");
 app.listen(PORT, () => {});
 
 // Function calling section here
-console.log("findLargest", findLargest);
+console.log("secoundLargest", secoundLargest);
