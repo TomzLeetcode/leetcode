@@ -5,8 +5,9 @@ const PORT = 9000;
 // Page import section here
 const secoundLargest = require("./arrays/secoundLargest");
 const findLargest = require("./arrays/findLargest");
+const checkSorted = require("./arrays/checkSorted");
 
 app.listen(PORT, () => {});
 
 // Function calling section here
-console.log("secoundLargest", secoundLargest);
+console.log("checkSorted", checkSorted);
