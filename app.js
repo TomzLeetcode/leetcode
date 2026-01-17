@@ -13,8 +13,9 @@ const arraayRotate = require("./arrays/Easy/rotateDsize");
 const removeDuplicate = require("./arrays/Easy/removeDuplicates");
 const findMissingElements = require("./arrays/Easy/findMissingElement");
 const unionofSoretedArray = require("./arrays/Easy/union2Array");
+const find2DMatrix = require("./arrays/Medium/find2DMatrix");
 
 app.listen(PORT, () => {});
 
 // Function calling section here
-console.log("unionofSoretedArray", unionofSoretedArray);
+console.log("find2DMatrix", find2DMatrix);
