@@ -70,6 +70,4 @@ const mat = [
 
 const result = new TwoDMatrix();
 
-console.log(result.find2DMatrix(mat, target));
-
 module.exports = result;
