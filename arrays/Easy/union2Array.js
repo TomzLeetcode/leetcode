@@ -75,6 +75,4 @@ const arr1 = [1, 2, 3, 4, 5],
 
 const result = unionofSoretedArray(arr1, arr2, n, m);
 
-console.log("result", result);
-
 module.exports = result;
