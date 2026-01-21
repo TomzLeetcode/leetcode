@@ -14,8 +14,8 @@ const removeDuplicate = require("./arrays/Easy/removeDuplicates");
 const findMissingElements = require("./arrays/Easy/findMissingElement");
 const unionofSoretedArray = require("./arrays/Easy/union2Array");
 const find2DMatrix = require("./arrays/Medium/find2DMatrix");
-const twoSum = require("./arrays/Easy/twoSum")
-
+const twoSum = require("./arrays/Easy/twoSum");
+const leadersInArray = require("./arrays/Medium/leadersArray");
 
 app.listen(PORT, () => {});
 

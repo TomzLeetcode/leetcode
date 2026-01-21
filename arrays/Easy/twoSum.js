@@ -48,4 +48,3 @@ const n = 5,
   target = 11;
 
 const result = twoSum(arr, target);
-console.log("result", result);
