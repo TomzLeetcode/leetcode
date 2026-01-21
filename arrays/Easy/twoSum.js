@@ -32,11 +32,11 @@ function twoSum(arr, target) {
     let sum = numindexsandvalues[left][0] + numindexsandvalues[right][0];
 
     if (sum === target) {
-      return [numsWithIndex[left][1], numsWithIndex[right][1]];
+      return [numindexsandvalues[left][1], numindexsandvalues[right][1]];
     } else if (sum < target) {
       left++;
     } else {
-      right++;
+      right--;
     }
   }
 
