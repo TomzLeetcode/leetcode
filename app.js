@@ -16,6 +16,7 @@ const unionofSoretedArray = require("./arrays/Easy/union2Array");
 const find2DMatrix = require("./arrays/Medium/find2DMatrix");
 const twoSum = require("./arrays/Easy/twoSum");
 const leadersInArray = require("./arrays/Medium/leadersArray");
+const spiraltrevesal = require("./arrays/Medium/SpiralTraversalofMatrix")
 
 app.listen(PORT, () => {});
 
